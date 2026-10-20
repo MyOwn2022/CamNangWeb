@@ -43,14 +43,8 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
   padding: 12px 20px;
 }
 .reader__brand { display: flex; align-items: center; gap: 16px; min-width: 0; }
-.reader__logo {
-  flex: none;
-  background: var(--white);
-  border-radius: 10px;
-  padding: 6px 10px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
-}
-.reader__logo img { height: 26px; width: auto; }
+.reader__logo { flex: none; }
+.reader__logo img { height: 32px; width: auto; }
 .reader__title, .reader__link {
   font-weight: 700;
   font-size: 15px;
@@ -166,7 +160,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 /* ---------- Responsive ---------- */
 @media (min-width: 768px) {
   .reader__bar { padding: 18px 40px; }
-  .reader__logo img { height: 34px; }
+  .reader__logo img { height: 42px; }
   .reader__title, .reader__link { font-size: 17px; }
 }
 @media (max-width: 640px) {
